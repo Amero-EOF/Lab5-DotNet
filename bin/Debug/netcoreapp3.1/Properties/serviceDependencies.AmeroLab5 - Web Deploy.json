@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/amerosqlserver/databases/AmeroLab5",
+      "type": "mssql.azure",
+      "connectionId": "DefaultDBConnection",
+      "secretStore": null
+    }
+  }
+}

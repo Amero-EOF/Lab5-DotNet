@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\crushmero\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\crushmero\\.nuget\\packages"
+    ]
+  }
+}
