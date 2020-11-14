@@ -10,8 +10,7 @@ namespace Lab5.Models
 {
     public class AnswerImage
     {
-        [Required]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+
         public int AnswerImageID { get; set; }
 
         [Required]

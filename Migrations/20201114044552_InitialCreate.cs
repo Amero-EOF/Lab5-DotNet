@@ -10,8 +10,9 @@ namespace Lab5.Migrations
                 name: "AnswerImages",
                 columns: table => new
                 {
-                    AnswerImageID = table.Column<int>(nullable: false),
-                    FileName = table.Column<string>(maxLength: 50, nullable: false),
+                    AnswerImageID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FileName = table.Column<string>(nullable: false),
                     Url = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
